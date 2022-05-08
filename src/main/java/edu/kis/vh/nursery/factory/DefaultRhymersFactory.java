@@ -27,6 +27,7 @@ public class DefaultRhymersFactory implements Rhymersfactory {
     }
 
 
+    //Wszystko działa
     private static class FIFORhymer extends DefaultCountingOutRhymer {
 
         private final DefaultCountingOutRhymer temp = new DefaultCountingOutRhymer();
